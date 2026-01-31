@@ -39,7 +39,7 @@ const SearchForm: React.FC<SearchFormProps> = ({ className }) => {
                     startIcon={<Search className="h-4 w-4" />}
                 />
             </div>
-            <p className="text-[0.8rem] border text-gray-500 dark:text-gray-400 font-medium text-center">
+            <p className="text-[0.8rem] text-gray-500 dark:text-gray-400 font-medium text-center">
                 Try "Bulbasaur", "Eevee", or "Snorlax"
             </p>
         </div>
