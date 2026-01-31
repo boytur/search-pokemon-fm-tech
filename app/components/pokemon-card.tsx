@@ -60,7 +60,7 @@ const PokemonCard: React.FC<PokemonCardProps> = ({ pokemon }) => {
                                         <span className="font-medium text-gray-700 dark:text-gray-300 group-hover:text-black dark:group-hover:text-white">{attack.name}</span>
                                         <div className="flex gap-3 text-xs text-gray-500">
                                             <span className="bg-gray-200 dark:bg-gray-700 px-2 py-0.5 rounded-full text-gray-700 dark:text-gray-300">{attack.type}</span>
-                                            <span className="font-semibold">{attack.damage} AP</span>
+                                            <span className="font-semibold mt-[3px]">{attack.damage} AP</span>
                                         </div>
                                     </div>
                                 ))}
@@ -78,7 +78,7 @@ const PokemonCard: React.FC<PokemonCardProps> = ({ pokemon }) => {
                                         <span className="font-medium text-gray-700 dark:text-gray-300 group-hover:text-black dark:group-hover:text-white">{attack.name}</span>
                                         <div className="flex gap-3 text-xs text-gray-500">
                                             <span className="bg-gray-200 dark:bg-gray-700 px-2 py-0.5 rounded-full text-gray-700 dark:text-gray-300">{attack.type}</span>
-                                            <span className="font-semibold text-red-600 dark:text-red-400">{attack.damage} AP</span>
+                                            <span className="font-semibold text-red-600 dark:text-red-400 mt-[3px]">{attack.damage} AP</span>
                                         </div>
                                     </div>
                                 ))}
